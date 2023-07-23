@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 30px;
+}
+
+.routes-container {
+  align-self: center;
+}
